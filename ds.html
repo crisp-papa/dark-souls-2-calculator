@@ -1,0 +1,124 @@
+<!-- DS2 CALC YOU FUCKER -->
+
+<html>
+	<head>
+		<title>If only I could be so grossly incandescent!</title>
+		<link rel="stylesheet"  type="text/css" href="dark.css">
+		<script src="soulSelector.js"></script>
+	</head>
+
+	<body>
+		<div id="content">
+			<select id="ddlCharacter">
+				<option >Please select a class...</option>
+				<option id="optWarrior" value="warrior">Warrior</option>
+				<option id="optKnight" value="knight">Knight</option>
+				<option id="optSwordsman" value="swordsman">Swordsman</option>
+				<option id="optBandit" value="bandit">Bandit</option>
+				<option id="optCleric" value="cleric">Cleric</option>
+				<option id="optSorcerer" value="sorcerer">Sorcerer</option>
+				<option id="optExplorer" value="explorer">Explorer</option>
+				<option id="optDeprived" value="deprived">Deprived</option>
+			</select>
+
+			<table id="mainTable">
+				<tr>
+					<th>Statistic Name</th>
+					<th class="similarWidth">Base Value</th>
+					<th class="similarWidth">Increased By</th>
+					<th class="similarWidth">Current Value</th>
+					<th>-1</th>
+					<th>+1</th>
+				</tr>
+				<tr id="tblVigor">
+					<td>Vigor</td>
+					<td id="baseVIG">0</td>
+					<td class="increased" id="increasedVIG">0</td>
+					<td id="currentVIG">0</td>
+					<td><input type="button" value="-" class="buttonSubtract" id="minusVIG"/></td>
+					<td><input type="button" value="+" class="buttonAdd" id="addVIG"/></td>
+				</tr>
+				<tr id="tblEndurance">
+					<td>Endurance</td>
+					<td id="baseEND">0</td>
+					<td class="increased" id="increasedEND">0</td>
+					<td id="currentEND">0</td>
+					<td><input type="button" value="-" class="buttonSubtract" id="minusEND"/></td>
+					<td><input type="button" value="+" class="buttonAdd" id="addEND"/></td>
+				</tr>
+				<tr id="tblVitality">
+					<td>Vitality</td>
+					<td id="baseVIT">0</td>
+					<td class="increased" id="increasedVIT">0</td>
+					<td id="currentVIT">0</td>
+					<td><input type="button" value="-" class="buttonSubtract" id="minusVIT"/></td>
+					<td><input type="button" value="+" class="buttonAdd" id="addVIT"/></td>
+				</tr>
+				<tr id="tblAttunement">
+					<td>Attunement</td>
+					<td id="baseATN">0</td>
+					<td class="increased" id="increasedATN">0</td>
+					<td id="currentATN">0</td>
+					<td><input type="button" value="-" class="buttonSubtract" id="minusATN"/></td>
+					<td><input type="button" value="+" class="buttonAdd" id="addATN"/></td>
+				</tr>
+				<tr id="tblStrength">
+					<td>Strength</td>
+					<td id="baseSTR">0</td>
+					<td class="increased" id="increasedSTR">0</td>
+					<td id="currentSTR">0</td>
+					<td><input type="button" value="-" class="buttonSubtract" id="minusSTR"/></td>
+					<td><input type="button" value="+" class="buttonAdd" id="addSTR"/></td>
+				</tr>
+				<tr id="tblDexterity">
+					<td>Dexterity</td>
+					<td id="baseDEX">0</td>
+					<td class="increased" id="increasedDEX">0</td>
+					<td id="currentDEX">0</td>
+					<td><input type="button" value="-" class="buttonSubtract" id="minusDEX"/></td>
+					<td><input type="button" value="+" class="buttonAdd" id="addDEX"/></td>
+				</tr>
+				<tr id="tblAdaptability">
+					<td>Adaptability</td>
+					<td id="baseADP">0</td>
+					<td class="increased" id="increasedADP">0</td>
+					<td id="currentADP">0</td>
+					<td><input type="button" value="-" class="buttonSubtract" id="minusADP"/></td>
+					<td><input type="button" value="+" class="buttonAdd" id="addADP"/></td>
+				</tr>
+				<tr id="tblIntelligence">
+					<td>Intelligence</td>
+					<td id="baseINT">0</td>
+					<td class="increased" id="increasedINT">0</td>
+					<td id="currentINT">0</td>
+					<td><input type="button" value="-" class="buttonSubtract" id="minusINT"/></td>
+					<td><input type="button" value="+" class="buttonAdd" id="addINT"/></td>
+				</tr>
+				<tr id="rowFaith">
+					<td>Faith</td>
+					<td id="baseFTH">0</td>
+					<td class="increased" id="increasedFTH">0</td>
+					<td id="currentFTH">0</td>
+					<td><input type="button" value="-" class="buttonSubtract" id="minusFTH"/></td>
+					<td><input type="button" value="+" class="buttonAdd" id="addFTH"/></td>
+				</tr>
+				<tr id="rowSum">
+					<td>Totals</td>
+					<td id="baseSUM">0</td>
+					<td class="increased" id="increasedSUM">0</td>
+					<td id="currentSUM">0</td>
+
+				</tr>
+				<tr>
+					<td class="striking">SOUL LEVEL</td>
+					<td id="soulLevel">0</td>
+					<td class="striking">SOUL COST</td>
+					<td id="soulCost">0</td>
+				</tr>
+			</table>
+
+
+		</div>
+	</body>
+</html>
+
