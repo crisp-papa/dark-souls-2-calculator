@@ -1,0 +1,52 @@
+/* DS2 CALC SHEET */
+
+#content
+{
+	width: 900px;
+	margin: auto;
+	background-color: #443226;
+}
+
+body
+{
+	background-color: #1F1F17;
+
+	color: #BDBDB3;
+}
+
+select
+{
+	color: #BDBDB3;
+	background-color: #1F1F17;
+}
+
+tr, td
+{
+	border: 1px solid #BDBDB3;
+	text-align: center
+}
+
+th
+{
+	border: 1px solid #BDBDB3;
+}
+
+.buttonAdd
+{
+	width: 24px;
+}
+
+.buttonSubtract
+{
+	width: 24px;
+}
+
+.similarWidth
+{
+	width: 100px;
+}
+
+.striking
+{
+	font-weight: bold;
+}
